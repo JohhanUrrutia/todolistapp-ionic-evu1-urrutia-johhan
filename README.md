@@ -1,10 +1,10 @@
 # miApp - Lista de tareas
 
-Ramo: Desarrollo de aplicaciones móviles
-Sección: 50
-Profesor: Vicente Zapata
-Alumno: Johhan Urrutia L.
-Evaluación: Unidad 1
+Ramo: Desarrollo de aplicaciones móviles\
+Sección: 50\
+Profesor: Vicente Zapata\
+Alumno: Johhan Urrutia L.\
+Evaluación: Unidad 1\
 
 Aplicación desarrollada en Ionic con Angular, la cual nos permite administrar una lista de tareas. En la interfaz principal se muestran las tareas registradas con su título y descripción, y además es posible agregar, editar y eliminar cada una de ellas.
 
