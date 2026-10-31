@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular';
+import { Component, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton } from '@ionic/angular';
+import { TareasService } from '../services/tareas.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent],
+  imports: [RouterLink, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton],
 })
 export class HomePage {
-  constructor() {}
+  tareasService = inject(TareasService);
 }

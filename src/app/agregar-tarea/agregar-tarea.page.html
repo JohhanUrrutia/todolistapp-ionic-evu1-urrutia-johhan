@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ index !== null ? 'Editar tarea' : 'Agregar tarea' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-input label="Título" labelPlacement="floating" [(ngModel)]="titulo"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Descripción" labelPlacement="floating" [(ngModel)]="descripcion"></ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="guardar()">Guardar</ion-button>
+</ion-content>
